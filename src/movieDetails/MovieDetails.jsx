@@ -26,7 +26,7 @@ class MovieDetails extends Component {
         console.log(">>>>movie", movie);
         return (
             <div>
-                <ContentHeader title='Detalhes do Filme' small='Versão 1.0' />
+                <ContentHeader title='Detalhes do Filme'/>
                 <div className="col-sm-10 col-sm-offset-1" >
                     <Panel bsStyle="primary">
                         <Panel.Heading>
