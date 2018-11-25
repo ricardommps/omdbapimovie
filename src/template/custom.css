@@ -1,0 +1,40 @@
+.main-footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%
+}
+
+.small-box .icon{
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+button {
+    margin-left: 5px;
+}
+
+.table-actions{
+    width: 150px;
+}
+
+.main-header .navbar .nav>li>a>.label {
+    right: 0px !important;
+    position: relative;
+    top: -10px !important;
+}
+
+.creditsMenu {
+    top: 3px
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.formGroup{
+    padding: 15px;
+}

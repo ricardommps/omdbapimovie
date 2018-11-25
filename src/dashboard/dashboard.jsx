@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { getMovies } from './dashboardActions'
-import ContentHeader from '../common/template/contentHeader'
+import ContentHeader from '../components/header/contentHeader'
 import SearchMovies from '../components/searchMovies'
 import If from '../components/operador/if'
 import { Table, Alert } from "react-bootstrap";

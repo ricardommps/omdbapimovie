@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { getMovieById } from './movieDetailsActions'
-import ContentHeader from '../common/template/contentHeader'
+import ContentHeader from '../components/header/contentHeader'
 import { Panel, Form, FormGroup, Col, ControlLabel, FormControl, Button } from "react-bootstrap";
 import {browserHistory} from 'react-router';
 class MovieDetails extends Component {

@@ -1,4 +1,5 @@
-import '../common/template/dependencies'
+import '../template/dependencies'
+import '../components/header/contentHeader'
 import React, { Component } from 'react'
 import App from './app'
 
